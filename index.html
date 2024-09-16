@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            background-color: lightgoldenrodyellow;
+
+        }
+
+        .head {
+            margin: 20px;
+            flex: 1;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav1 {
+            display: flex;
+            justify-content: space-around;
+            flex: 2;
+        }
+
+        .book {
+            color: brown;
+            margin: 2px;
+            padding: 10px;
+        }
+
+        .parent {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 10px;
+            justify-content: space-around ;
+            
+        }
+
+        .item {
+            width: 19%;
+            height: auto;
+            align-items: center;
+            border: 2px solid black;
+        }
+
+        .item1 img {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            margin: 2px;
+        }
+
+        .item1 {
+            border: 2px solid black;
+        }
+
+        .item2 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item2 {
+            border: 2px solid black;
+        }
+
+        .item3 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item3 {
+            border: 2px solid black;
+        }
+
+        .item4 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item4 {
+            border: 2px solid black;
+        }
+
+        .item5 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item5 {
+            border: 2px solid black;
+        }
+
+        .item6 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item6 {
+            border: 2px solid black;
+        }
+
+        .item7 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item7 {
+            border: 2px solid black;
+        }
+
+        .item8 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item8 {
+            border: 2px solid black;
+        }
+
+        .item9 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item9 {
+            border: 2px solid black;
+        }
+
+        .item10 img {
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .item10 {
+            border: 2px solid black;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            height: 70px;
+        
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="head">LOGO</h1>
+        <nav class="nav1">
+            <a href="#">HOME</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">CONTACS</a>
+            <a href="#">Sign in</a>
+            <a class="book" href="#" radiobutton="bookmark">BOOKMARK</a>
+        </nav>
+    </div>
+
+    <br>
+        <img src="https://i.ytimg.com/vi/ejNIow5DPUM/maxresdefault.jpg" 
+        width="100%" height="auto" alt=""><br>
+
+    <div class="parent">
+        <div class="item item1">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 1</h3>
+
+            <p>Description product 1</p>
+
+            <p>$10
+            </p>
+        </div>
+
+        <div class="item item2">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 2</h3>
+
+            <p>Description product 2</p>
+
+            <p>$13</p>
+        </div>
+
+        <div class="item item3">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT</h3>
+
+            <p>Description product 3</p>
+
+            <p>$69</p>
+        </div>
+
+        <div class="item item4">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 4</h3>
+
+            <p>Description product 4</p>
+
+            <p>$49</p>
+        </div>
+
+        <div class="item item5">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 5</h3>
+
+            <p>Description product 5</p>
+
+            <p>$9</p>
+        </div>
+
+        <div class="item item6">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT</h3>
+
+            <p>Description product 6</p>
+
+            <p>$35</p>
+        </div>
+
+        <div class="item item7">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT</h3>
+
+            <p>Description product 7</p>
+
+            <p>text 2</p>
+        </div>
+
+        <div class="item item8">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 8</h3>
+
+            <p>Description product 8</p>
+
+            <p>$29</p>
+        </div>
+
+        <div class="item item9">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT 9</h3>
+
+            <p>Description product 9 </p>
+
+            <p>$40</p>
+        </div>
+
+        <div class="item item10">
+            <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-1264210.jpg&fm=jpg"
+                alt="">
+
+            <h3>PRODUCT</h3>
+
+            <p>Description product 10 </p>
+
+            <p>$35</p>
+        </div>
+    </div>
+</div>
+    </div>
+
+ <center><p class="footer">&copy;All Copy rights Reserved</p></center>
+
+</body>
+
+</html>
